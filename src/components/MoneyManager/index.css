@@ -1,0 +1,10 @@
+/* Write your CSS here */
+.listEle {
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+}
