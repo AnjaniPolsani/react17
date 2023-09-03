@@ -10,7 +10,7 @@ const TransactionItem = props => {
   return (
     <li className="listEle1">
       <p>{title}</p>
-      <p>{amount}</p>
+      <p>Rs {amount}</p>
       <p>{type}</p>
       <button type="button" data-testid="delete" onClick={onDeletingItem}>
         <img
